@@ -1,3 +1,10 @@
+# Instalación ubuntu en gitbash
+```bash
+wsl.exe --install
+*Crear contraseña*
+wsl --version
+wsl
+```
 # Instalación de Dependencias e Instaladores Generales
 
 ```bash
