@@ -239,6 +239,5 @@ fastqc trimmed/DRR016723_sub_1.trimmed.fastq.gz trimmed/DRR016723_sub_2.trimmed.
 multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 ```
 # Elije tu proyecto :3 
-![alt text](https://es.wikibooks.org/wiki/Wikichicos/Los_anfibios/La_rana#/media/Archivo:Pelophylax_perezi_by-dpc.jpg)
-* https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md
-[Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
+![alt text](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
+* [Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
