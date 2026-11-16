@@ -244,3 +244,9 @@ multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 
 ![alt text](https://es.wikipedia.org/wiki/Bothrops#/media/Archivo:Whitetail_Lancehead_01.jpg)
 * [Serpientes](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Serpientes.md)
+
+![alt text](https://en.wikipedia.org/wiki/Lepidoptera#/media/File:Peacock_butterfly_(Aglais_io)_2.jpg)
+*[Lepidoptera](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Tu,%20osea%20Lepidoptera.md)
+
+![alt text](https://es.wikipedia.org/wiki/Diptera#/media/Archivo:Six_Diptera.jpg)
+*[Mosquitos](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Mosquitos.md)
