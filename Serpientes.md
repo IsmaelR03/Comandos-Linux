@@ -1,10 +1,10 @@
-# 🐍 Proyecto 2: Filogenia de Serpientes mediante el Gen Mitocondrial `COX1`
+# Filogenia de Serpientes mediante el Gen Mitocondrial `COX1`
 
 Este flujo de trabajo permite descargar, alinear y reconstruir la historia evolutiva de distintas familias de serpientes (Boidae, Colubridae, Viperidae, Elapidae), empleando a *Gallus gallus* como **grupo externo (*outgroup*)** para polarizar las ramas del árbol.
 
 ---
 
-## 📋 Requisitos Previos (Entorno Linux / WSL)
+## Requisitos Previos (Entorno Linux / WSL)
 
 ```bash
 sudo apt update
@@ -13,7 +13,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🧬 Especies Incluidas en el Estudio
+## Especies Incluidas en el Estudio
 
 | Especie | Familia | Código de Accesión (NCBI RefSeq) | Rol en el Análisis |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🚀 Pipeline Paso a Paso
+## Pipeline Paso a Paso
 
 ### 1. Configuración del Directorio de Trabajo
 ```bash
