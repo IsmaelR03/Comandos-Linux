@@ -1,10 +1,7 @@
-# 🪰 Proyecto 4: Filogenia de Moscas y Mosquitos (Diptera) mediante `COX1`
+# Filogenia de Moscas y Mosquitos (Diptera) mediante `COX1`
 
-Este proyecto evalúa las relaciones filogenéticas entre dípteros de importancia médica, agrícola y modelo (mosquitos vectores, moscas domésticas y moscas de la fruta), empleando al nematodo *Caenorhabditis elegans* como **grupo externo (*outgroup*)**.
 
----
-
-## 📋 Requisitos Previos (Entorno Linux / WSL)
+## Requisitos Previos (Entorno Linux / WSL)
 
 ```bash
 sudo apt update
@@ -13,7 +10,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🧬 Especies Incluidas en el Estudio
+## Especies Incluidas en el Estudio
 
 | Especie | Importancia / Familia | Código de Accesión (NCBI RefSeq) | Rol en el Análisis |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +27,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🚀 Pipeline Paso a Paso
+## Pipeline Paso a Paso
 
 ### 1. Configuración del Directorio de Trabajo
 ```bash
