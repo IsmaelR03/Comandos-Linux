@@ -1,10 +1,7 @@
-# 🦋 Proyecto 3: Filogenia de Mariposas y Polillas (Lepidoptera) mediante `COX1`
+# Filogenia de Mariposas y Polillas (Lepidoptera) mediante `COX1`
 
-Pipeline bioinformático diseñado para analizar la divergencia evolutiva dentro del orden Lepidoptera (mariposas diurnas y polillas nocturnas), utilizando a la mosca de la fruta (*Drosophila melanogaster*, orden Diptera) como **grupo externo (*outgroup*)**.
 
----
-
-## 📋 Requisitos Previos (Entorno Linux / WSL)
+## Requisitos Previos (Entorno Linux / WSL)
 
 ```bash
 sudo apt update
@@ -13,7 +10,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🧬 Especies Incluidas en el Estudio
+## Especies Incluidas en el Estudio
 
 | Especie | Nombre Común / Familia | Código de Accesión (NCBI RefSeq) | Rol en el Análisis |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +27,7 @@ sudo apt install -y ncbi-entrez-direct mafft iqtree figtree jalview
 
 ---
 
-## 🚀 Pipeline Paso a Paso
+## Pipeline Paso a Paso
 
 ### 1. Configuración del Directorio de Trabajo
 ```bash
