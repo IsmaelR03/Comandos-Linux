@@ -241,3 +241,5 @@ multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 # Elije tu proyecto :3 
 ![alt text](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
 * [Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
+![alt text](https://es.wikipedia.org/wiki/Bothrops#/media/Archivo:Whitetail_Lancehead_01.jpg)
+* [Serpientes](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Serpientes.md)
