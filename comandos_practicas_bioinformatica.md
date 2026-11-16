@@ -243,11 +243,11 @@ multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 ![Ranitas](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
 - [Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
 
-![Serpientes](https://upload.wikimedia.org/wikipedia/commons/4/4e/Whitetail_Lancehead_01.jpg)
+![Serpientes](serpiente.jpg)
 - [Serpientes](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Serpientes.md)
 
-![Lepidoptera](https://upload.wikimedia.org/wikipedia/commons/3/3e/Peacock_butterfly_%28Aglais_io%29_2.jpg)
+![Lepidoptera](mariposa.jpg)
 - [Lepidoptera](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Tu,%20osea%20Lepidoptera.md)
 
-![Mosquitos](https://upload.wikimedia.org/wikipedia/commons/c/c8/Six_Diptera.jpg)
+![Mosquitos](mosquito.jpg)
 - [Mosquitos](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Mosquitos.md)
