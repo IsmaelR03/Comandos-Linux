@@ -1,4 +1,4 @@
-# Proyecto 1: Filogenia de Anfibios (Anuro) mediante el Gen Mitocondrial `COX1`
+# Filogenia de Anfibios (Anuro) mediante el Gen Mitocondrial `COX1`
 
 Este repositorio contiene el flujo de trabajo bioinformático reproducible para analizar las relaciones evolutivas entre diversas especies de anfibios (anuros y urodelos), utilizando a *Homo sapiens* como **grupo externo (*outgroup*)** para enraizar el árbol filogenético.
 
