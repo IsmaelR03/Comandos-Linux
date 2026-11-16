@@ -239,14 +239,15 @@ fastqc trimmed/DRR016723_sub_1.trimmed.fastq.gz trimmed/DRR016723_sub_2.trimmed.
 multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 ```
 # Elije tu proyecto :3 
-![alt text](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
-* [Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
 
-![alt text](https://es.wikipedia.org/wiki/Bothrops#/media/Archivo:Whitetail_Lancehead_01.jpg)
-* [Serpientes](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Serpientes.md)
+![Ranitas](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
+- [Ranitas](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Ranitas.md)
 
-![alt text](https://en.wikipedia.org/wiki/Lepidoptera#/media/File:Peacock_butterfly_(Aglais_io)_2.jpg)
-*[Lepidoptera](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Tu,%20osea%20Lepidoptera.md)
+![Serpientes](https://upload.wikimedia.org/wikipedia/commons/4/4e/Whitetail_Lancehead_01.jpg)
+- [Serpientes](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Serpientes.md)
 
-![alt text](https://es.wikipedia.org/wiki/Diptera#/media/Archivo:Six_Diptera.jpg)
-*[Mosquitos](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Mosquitos.md)
+![Lepidoptera](https://upload.wikimedia.org/wikipedia/commons/3/3e/Peacock_butterfly_%28Aglais_io%29_2.jpg)
+- [Lepidoptera](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Tu,%20osea%20Lepidoptera.md)
+
+![Mosquitos](https://upload.wikimedia.org/wikipedia/commons/c/c8/Six_Diptera.jpg)
+- [Mosquitos](https://github.com/IsmaelR03/Comandos-Linux/blob/main/Mosquitos.md)
