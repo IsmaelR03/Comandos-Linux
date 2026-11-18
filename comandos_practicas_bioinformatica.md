@@ -189,7 +189,8 @@ cd ~/qc_illumina
 ```
 
 ```bash
-cp DRR016723_1.fastq.gz DRR016723_2.fastq.gz ~/qc_illumina/raw/
+cp ../DRR016723_sub_1.fastq.gz .
+cp ../DRR016723_sub_2.fastq.gz .
 ```
 
 ```bash
