@@ -201,8 +201,8 @@ ls -lh *.fastq.gz
 ```
 
 ```bash
-seqkit head -n 100000 DRR016723_sub_1.fastq.gz -o DRR016723_sub_1.fastq.gz
-seqkit head -n 100000 DRR016723_sub_2.fastq.gz -o DRR016723_sub_2.fastq.gz
+seqkit head -n 100000 DRR016723_sub_1.fastq.gz -o DRR016723_1.fastq.gz
+seqkit head -n 100000 DRR016723_sub_2.fastq.gz -o DRR016723_2.fastq.gz
 ```
 
 ```bash
