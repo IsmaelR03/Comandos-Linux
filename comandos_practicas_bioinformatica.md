@@ -189,7 +189,7 @@ cd ~/qc_illumina
 ```
 
 ```bash
-cp ../DRR016723_sub_1.fastq.gz .
+cp ../DRR016723_sub__1.fastq.gz .
 cp ../DRR016723_sub_2.fastq.gz .
 ```
 
@@ -206,26 +206,26 @@ seqkit head -n 100000 DRR016723_sub_2.fastq.gz -o DRR016723_2.fastq.gz
 ```
 
 ```bash
-echo $(zcat DRR016723_sub_1.fastq.gz | wc -l) / 4 | bc
-echo $(zcat DRR016723_sub_2.fastq.gz | wc -l) / 4 | bc
+echo $(zcat DRR016723_1.fastq.gz | wc -l) / 4 | bc
+echo $(zcat DRR016723_2.fastq.gz | wc -l) / 4 | bc
 ```
 
 ```bash
 cd ~/qc_illumina
-fastqc raw/DRR016723_sub_1.fastq.gz raw/DRR016723_sub_2.fastq.gz -o fastqc_raw/
+fastqc raw/DRR016723_1.fastq.gz raw/DRR016723_2.fastq.gz -o fastqc_raw/
 ```
 
 ```bash
 cd fastqc_raw
-unzip -o DRR016723_sub_1_fastqc.zip
-xdg-open DRR016723_sub_1_fastqc.html
+unzip -o DRR016723_1_fastqc.zip
+xdg-open DRR016723_1_fastqc.html
 ```
 
 ```bash
 cd ~/qc_illumina
 fastp \
-  -i raw/DRR016723_sub_1.fastq.gz -I raw/DRR016723_sub_2.fastq.gz \
-  -o trimmed/DRR016723_sub_1.trimmed.fastq.gz -O trimmed/DRR016723_sub_2.trimmed.fastq.gz \
+  -i raw/DRR016723_1.fastq.gz -I raw/DRR016723_2.fastq.gz \
+  -o trimmed/DRR016723_1.trimmed.fastq.gz -O trimmed/DRR016723_2.trimmed.fastq.gz \
   --detect_adapter_for_pe \
   --qualified_quality_phred 20 \
   --length_required 36 \
@@ -233,7 +233,7 @@ fastp \
 ```
 
 ```bash
-fastqc trimmed/DRR016723_sub_1.trimmed.fastq.gz trimmed/DRR016723_sub_2.trimmed.fastq.gz -o fastqc_trimmed/
+fastqc trimmed/DRR016723_1.trimmed.fastq.gz trimmed/DRR016723_2.trimmed.fastq.gz -o fastqc_trimmed/
 ```
 
 ```bash
@@ -245,8 +245,8 @@ Illumina Paired-End
 
 ```bash
 ls -lh ~/qc_illumina/trimmed/
-echo $(zcat ~/qc_illumina/trimmed/DRR016723_sub_1.trimmed.fastq.gz | wc -l) / 4 | bc
-echo $(zcat ~/qc_illumina/trimmed/DRR016723_sub_2.trimmed.fastq.gz | wc -l) / 4 | bc
+echo $(zcat ~/qc_illumina/trimmed/DRR016723_1.trimmed.fastq.gz | wc -l) / 4 | bc
+echo $(zcat ~/qc_illumina/trimmed/DRR016723_2.trimmed.fastq.gz | wc -l) / 4 | bc
 ```
 
 ```bash
