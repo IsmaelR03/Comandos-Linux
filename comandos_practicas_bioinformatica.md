@@ -238,6 +238,38 @@ fastqc trimmed/DRR016723_sub_1.trimmed.fastq.gz trimmed/DRR016723_sub_2.trimmed.
 ```bash
 multiqc ~/qc_illumina -o ~/qc_illumina/multiqc_report
 ```
+
+# Práctica: Ensamblaje de Genomas a partir de Lecturas
+Illumina Paired-End
+
+```bash
+ls -lh ~/qc_illumina/trimmed/
+echo $(zcat ~/qc_illumina/trimmed/DRR016723_sub_1.trimmed.fastq.gz | wc -l) / 4 | bc
+echo $(zcat ~/qc_illumina/trimmed/DRR016723_sub_2.trimmed.fastq.gz | wc -l) / 4 | bc
+```
+
+```bash
+cd ~/ensamblaje/resultados/spades_outputDRR016723
+ls -lh
+grep -c '>' contigs.fasta
+```
+
+```bash
+conda activate ensamblaje
+conda install -c bioconda -c conda-forge quast --force-reinstall -y
+conda install -c bioconda -c conda-forge bandage -y
+```
+
+```bash
+cd ~/ensamblaje
+quast.py resultados/spades_outputDRR016723/contigs.fasta -o quast/reporte_contigsDRR016723
+cat quast/reporte_contigsDRR016723/report.txt
+```
+
+```bash
+Bandage &
+```
+
 # Elije tu proyecto :3 
 
 ![Ranitas](https://multimedia20stg.blob.core.windows.net/especies/104_0455.jpg)
