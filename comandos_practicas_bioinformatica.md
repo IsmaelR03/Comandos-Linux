@@ -1,6 +1,8 @@
 # Instalación ubuntu en gitbash
 ```bash
 wsl.exe --install
+wsl --list --online
+wsl --install -d Ubuntu-24.04
 *Crear contraseña*
 wsl --version
 wsl
